@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couch Voyager</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        body {
+            min-height: 30vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #002b36;
+            color: #fff;
+            height: 60px;
+        }
+
+        #header h1 {
+            font-size: 32px;
+            margin: 0;
+        }
+
+        #location {
+            word-wrap: break-word;
+            font-size: 24px;
+            margin: 20px;
+        }
+    </style>
+    <script src="popup.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>🛋️ Couch Voyager</h1>
+    </div>
+    <h2 id="location">Loading location...</h2>
+</body>
+
+</html>
