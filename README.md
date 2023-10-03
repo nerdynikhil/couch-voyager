@@ -17,12 +17,11 @@ Open Chrome and click on the three dots then "Extensions" then "Manage Extension
 
 Activate "Developer Mode" and click on "Load unpacked"
 
-![image](https://github.com/Thibaultm89/couch-voyager/assets/50693268/80da588c-3e97-4959-b665-6e70524bffc6)
+![image](https://github.com/Thibaultm89/couch-voyager/assets/50693268/4024db61-3ee1-4e05-a0a8-195a54cf6b5e)
 
+Select the folder couch-voyager and the extension should appear
 
-Select the folder couch-voyager and it should appear
-
-![image](https://github.com/Thibaultm89/couch-voyager/assets/50693268/f6c824a5-2e85-4b33-8178-c8058a910546)
+![image](https://github.com/Thibaultm89/couch-voyager/assets/50693268/a6568bb1-f4b0-4372-8d54-368ff35b6b60)
 
 You can now go to google maps and use the exentension
 
