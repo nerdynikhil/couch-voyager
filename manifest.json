@@ -2,22 +2,25 @@
     "name": "Couch Voyager",
     "version": "1.0",
     "description": "Explore the world without leaving your seat!",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "permissions": [
-        "tabs",
-        "activeTab"
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "*://*.google.com/maps/*"
     ],
     "content_scripts": [
         {
             "matches": [
-                "*://*.google.com/maps/@*"
+                "*://*.google.com/maps/*"
             ],
             "js": [
                 "content.js"
             ]
         }
     ],
-    "browser_action": {
+    "action": {
         "default_popup": "popup.html"
     }
 }

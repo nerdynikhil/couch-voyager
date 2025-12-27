@@ -33,12 +33,23 @@ body {
     color: #d62828;
 }
 #lets-go-button {
-    padding: 10px 20px 10px 20px;
+    padding: 12px 24px;
     background-color: #002b36;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 20px;
+    margin: 20px auto;
+    display: block;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#lets-go-button:hover {
+    background-color: #073642;
+    transform: scale(1.02);
+}
+
+#lets-go-button:active {
+    transform: scale(0.98);
 }
